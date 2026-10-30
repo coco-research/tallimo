@@ -1,0 +1,29 @@
+{
+  "id": "case-034",
+  "family": "glossary",
+  "request": {
+    "items": [
+      {
+        "item_id": "settlement-recon",
+        "facts": [
+          {
+            "id": "ev-34",
+            "text": "June Sampel moved settlement reconciliation into review."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "settlement-recon": {
+      "completed": [
+        "June Sample moved settlement reconciliation into review."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "case-028",
+  "family": "tone",
+  "request": {
+    "items": [
+      {
+        "item_id": "december-leave",
+        "facts": [
+          {
+            "id": "ev-28",
+            "text": "Team is wiped but we still want extra December leave, please back us."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "december-leave": {
+      "completed": [
+        "For information: additional leave is planned for the team members who committed exceptionally this year.",
+        "The leave extends the standard December break, so capacity drops earlier than usual.",
+        "The aim is to keep morale going, and the owner hopes the Director will support it."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

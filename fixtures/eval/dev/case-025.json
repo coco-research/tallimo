@@ -1,0 +1,31 @@
+{
+  "id": "case-025",
+  "family": "tone",
+  "request": {
+    "items": [
+      {
+        "item_id": "sample-advisor",
+        "facts": [
+          {
+            "id": "ev-25",
+            "text": "Gonna slip UAT, no big deal, Apr 1 is now Apr 15."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "sample-advisor": {
+      "completed": [
+        "The UAT completion date has moved from Apr 1 to Apr 15, because a weekly cadence with the partner team has not been possible."
+      ],
+      "next": [
+        "Hold Apr 15 as the internal target for UAT completion."
+      ],
+      "future": []
+    }
+  }
+}

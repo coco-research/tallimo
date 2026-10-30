@@ -1,0 +1,34 @@
+{
+  "id": "case-002",
+  "family": "status",
+  "request": {
+    "items": [
+      {
+        "item_id": "sample-advisor",
+        "facts": [
+          {
+            "id": "ev-2",
+            "text": "Sample Advisor UAT moved from Apr 1 to Apr 15."
+          }
+        ],
+        "completed": [
+          "Three of the eight team members are now working on Sample Advisor."
+        ],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "sample-advisor": {
+      "completed": [
+        "Three of the eight team members are now working on Sample Advisor.",
+        "The UAT completion date has moved from Apr 1 to Apr 15, because a weekly cadence with the partner team has not been possible."
+      ],
+      "next": [
+        "Hold Apr 15 as the internal target for UAT completion."
+      ],
+      "future": []
+    }
+  }
+}

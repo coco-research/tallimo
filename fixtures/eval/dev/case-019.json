@@ -1,0 +1,33 @@
+{
+  "id": "case-019",
+  "family": "dropped-owner-text",
+  "request": {
+    "items": [
+      {
+        "item_id": "audit-export",
+        "facts": [
+          {
+            "id": "ev-19",
+            "text": "Theo started the CSV export."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": [
+          "Export permission scoping follows the CSV export."
+        ]
+      }
+    ]
+  },
+  "owner_final": {
+    "audit-export": {
+      "completed": [
+        "Theo started the CSV export."
+      ],
+      "next": [],
+      "future": [
+        "Export permission scoping follows the CSV export."
+      ]
+    }
+  }
+}

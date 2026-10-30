@@ -1,0 +1,56 @@
+{
+  "id": "case-039",
+  "family": "wrong-item",
+  "request": {
+    "items": [
+      {
+        "item_id": "demo-vendor",
+        "facts": [
+          {
+            "id": "ev-39",
+            "text": "Hold Apr 15 as the internal target for UAT completion."
+          }
+        ],
+        "completed": [
+          "The MVP launched successfully on Mar 16."
+        ],
+        "next": [],
+        "future": []
+      },
+      {
+        "item_id": "sample-advisor",
+        "facts": [
+          {
+            "id": "ev-40",
+            "text": "Run the retrospective next week."
+          }
+        ],
+        "completed": [
+          "Access to both the production and UAT environments is in hand."
+        ],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "demo-vendor": {
+      "completed": [
+        "The MVP launched successfully on Mar 16."
+      ],
+      "next": [
+        "Run the retrospective next week."
+      ],
+      "future": []
+    },
+    "sample-advisor": {
+      "completed": [
+        "Access to both the production and UAT environments is in hand."
+      ],
+      "next": [
+        "Hold Apr 15 as the internal target for UAT completion."
+      ],
+      "future": []
+    }
+  }
+}

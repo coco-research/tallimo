@@ -1,0 +1,45 @@
+{
+  "id": "case-035",
+  "family": "wrong-item",
+  "request": {
+    "items": [
+      {
+        "item_id": "sample-advisor",
+        "facts": [
+          {
+            "id": "ev-35",
+            "text": "Card refund endpoint moved from In progress to Done."
+          }
+        ],
+        "completed": [
+          "Three of the eight team members are now working on Sample Advisor."
+        ],
+        "next": [],
+        "future": []
+      },
+      {
+        "item_id": "card-refunds",
+        "facts": [],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "sample-advisor": {
+      "completed": [
+        "Three of the eight team members are now working on Sample Advisor."
+      ],
+      "next": [],
+      "future": []
+    },
+    "card-refunds": {
+      "completed": [
+        "The card refund endpoint moved from In progress to Done."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

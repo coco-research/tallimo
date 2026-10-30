@@ -1,0 +1,409 @@
+{
+  "identity": [
+    {
+      "display_name": "Nora Example",
+      "jira_account_id": "nora@firm.example",
+      "github_login": "nora",
+      "slack_member_id": "U1",
+      "confirmed": true,
+      "role": "dev"
+    },
+    {
+      "display_name": "June Sample",
+      "jira_account_id": "june@firm.example",
+      "github_login": "june",
+      "slack_member_id": "U2",
+      "confirmed": true,
+      "role": "dev"
+    },
+    {
+      "display_name": "Theo Demo",
+      "jira_account_id": "theo@firm.example",
+      "github_login": "theo",
+      "slack_member_id": "U3",
+      "confirmed": false,
+      "role": "dev"
+    },
+    {
+      "display_name": "Mina Placeholder",
+      "jira_account_id": "mina@firm.example",
+      "github_login": null,
+      "slack_member_id": "U4",
+      "confirmed": true,
+      "role": "pm"
+    },
+    {
+      "display_name": "Rosa Fixture",
+      "jira_account_id": "rosa@firm.example",
+      "github_login": "rosa",
+      "slack_member_id": "U5",
+      "confirmed": true,
+      "role": "tl"
+    },
+    {
+      "display_name": "Iris Mockup",
+      "jira_account_id": "iris@firm.example",
+      "slack_member_id": "U6",
+      "confirmed": true,
+      "role": "ppm"
+    },
+    {
+      "display_name": "Dana Dummy",
+      "jira_account_id": "dana@firm.example",
+      "github_login": "dana-w",
+      "slack_member_id": "U7",
+      "confirmed": true,
+      "role": "director"
+    },
+    {
+      "display_name": "Alex Example",
+      "jira_account_id": "alex@firm.example",
+      "github_login": "alex-example",
+      "slack_member_id": "U8",
+      "confirmed": true,
+      "role": "partner"
+    }
+  ],
+  "epics": [
+    {
+      "epic_key": "PAY-100",
+      "board": "PAY",
+      "summary": "Payments core hardening",
+      "status": "In Progress"
+    },
+    {
+      "epic_key": "AUD-200",
+      "board": "AUD",
+      "summary": "Audit trail export",
+      "status": "In Progress"
+    },
+    {
+      "epic_key": "PLAT-300",
+      "board": "PLAT",
+      "summary": "Platform",
+      "status": "In Progress"
+    },
+    {
+      "epic_key": "REL-400",
+      "board": "REL",
+      "summary": "Release schedule",
+      "status": "To Do"
+    }
+  ],
+  "stories": [
+    {
+      "story_key": "PAY-101",
+      "epic_key": "PAY-100",
+      "summary": "Card refund endpoint",
+      "description": "Build a refund endpoint for card payments with idempotency keys and full audit logging of refund events.",
+      "status": "In Progress",
+      "assignee": "nora@firm.example",
+      "sprint": "S12"
+    },
+    {
+      "story_key": "PAY-102",
+      "epic_key": "PAY-100",
+      "summary": "Settlement reconciliation job",
+      "description": "Nightly job that reconciles settled transactions against the ledger and raises mismatches for review.",
+      "status": "In Progress",
+      "assignee": "june@firm.example",
+      "sprint": "S12"
+    },
+    {
+      "story_key": "PAY-103",
+      "epic_key": "PAY-100",
+      "summary": "Chargeback intake form",
+      "description": "Internal form for analysts to log chargebacks with reason codes and attachments.",
+      "status": "To Do",
+      "assignee": null,
+      "sprint": "S13"
+    },
+    {
+      "story_key": "AUD-201",
+      "epic_key": "AUD-200",
+      "summary": "CSV export service",
+      "description": "Service that exports audit trail entries to CSV with column selection and date range filters.",
+      "status": "In Progress",
+      "assignee": "theo@firm.example",
+      "sprint": "S12"
+    },
+    {
+      "story_key": "AUD-202",
+      "epic_key": "AUD-200",
+      "summary": "Export permission scoping",
+      "description": "Restrict export visibility by team role; analysts see their team, auditors see all.",
+      "status": "To Do",
+      "assignee": null,
+      "sprint": "S13"
+    },
+    {
+      "story_key": "PLAT-301",
+      "epic_key": "PLAT-300",
+      "summary": "Shared auth",
+      "description": "One login path for the payments and audit services.",
+      "status": "In Progress",
+      "assignee": null,
+      "sprint": "S12"
+    },
+    {
+      "story_key": "PLAT-302",
+      "epic_key": "PLAT-300",
+      "summary": "Rate limits",
+      "description": "Cap retries so a bad client cannot stall the queue.",
+      "status": "To Do",
+      "assignee": null,
+      "sprint": "S13"
+    },
+    {
+      "story_key": "REL-401",
+      "epic_key": "REL-400",
+      "summary": "Cut notes",
+      "description": "The note that goes out when a release is cut.",
+      "status": "To Do",
+      "assignee": null,
+      "sprint": "S13"
+    }
+  ],
+  "pull_requests": [
+    {
+      "repo": "payments-core",
+      "number": 41,
+      "id": "PR_pay_41",
+      "title": "Add card refund endpoint with idempotency keys",
+      "body": "Implements the refund endpoint for card payments. Includes idempotency-key handling, audit logging of every refund event, and tests covering duplicate submissions.",
+      "author": "nora",
+      "state": "merged",
+      "head_branch": "feat/card-refund",
+      "base_branch": "main",
+      "merged_days_ago": 1
+    },
+    {
+      "repo": "payments-core",
+      "number": 42,
+      "id": "PR_pay_42",
+      "title": "Nightly settlement reconciliation job",
+      "body": "Adds the nightly reconciliation of settled transactions against the ledger. Mismatches are written to a review table and surfaced to the operations dashboard.",
+      "author": "june",
+      "state": "open",
+      "head_branch": "feat/settlement-recon",
+      "base_branch": "main",
+      "age_days": 8
+    },
+    {
+      "repo": "payments-core",
+      "number": 43,
+      "id": "PR_pay_43",
+      "title": "Bump dependency versions",
+      "body": "Routine dependency updates: patch releases for internal libraries, no behaviour change.",
+      "author": "nora",
+      "state": "merged",
+      "head_branch": "chore/bump-deps",
+      "base_branch": "main",
+      "merged_days_ago": 9
+    },
+    {
+      "repo": "audit-trail",
+      "number": 17,
+      "id": "PR_aud_17",
+      "title": "CSV export service with date range filters",
+      "body": "Export audit trail entries to CSV. Supports column selection and date range filtering per the export requirements.",
+      "author": "theo",
+      "state": "open",
+      "head_branch": "feat/csv-export",
+      "base_branch": "main",
+      "age_days": 12
+    },
+    {
+      "repo": "audit-trail",
+      "number": 18,
+      "id": "PR_aud_18",
+      "title": "Fix flaky export test",
+      "body": "Removes a race condition in the export test fixture by injecting a deterministic clock.",
+      "author": "theo",
+      "state": "merged",
+      "head_branch": "fix/flaky-test",
+      "base_branch": "main",
+      "merged_days_ago": 3
+    }
+  ],
+  "repo_epic_map": [
+    {
+      "repo": "payments-core",
+      "epic_key": "PAY-100"
+    },
+    {
+      "repo": "audit-trail",
+      "epic_key": "AUD-200"
+    }
+  ],
+  "leadership_updates": {
+    "categories": ["Growth Programme", "Screening", "Leadership Topics"],
+    "entries": [
+      {
+        "key": "sample-2029-03-16",
+        "entry_date": "2029-03-16",
+        "created_at": "2029-03-16T09:00:00Z",
+        "sent_at": "2029-03-16T17:00:00Z",
+        "programme": "Project K",
+        "items": [
+          {
+            "item_id": "demo-vendor",
+            "category": "Growth Programme",
+            "position": 0,
+            "title": "Demo Vendor (MVP)",
+            "priority": 1,
+            "start_date": "2029-01-08",
+            "end_date": "2029-03-16",
+            "pct": 100,
+            "capacity": 25,
+            "carried": [],
+            "completed": [
+              "The MVP launched successfully on Mar 16.",
+              "The launch moved from Mar 14 to Mar 16 to absorb late requests from the client team.",
+              "Weekly onboarding sessions are already running."
+            ],
+            "next": [
+              "Run the retrospective next week.",
+              "Finish the user guide."
+            ],
+            "future": []
+          },
+          {
+            "item_id": "sample-advisor",
+            "category": "Growth Programme",
+            "position": 1,
+            "title": "Sample Advisor",
+            "priority": 1,
+            "start_date": null,
+            "end_date": null,
+            "pct": 40,
+            "capacity": 38,
+            "carried": [],
+            "completed": [
+              "Three of the eight team members are now working on Sample Advisor.",
+              "Access to both the production and UAT environments is in hand.",
+              "The UAT completion date has moved from Apr 1 to Apr 15, because a weekly cadence with the partner team has not been possible."
+            ],
+            "next": [
+              "Hold Apr 15 as the internal target for UAT completion.",
+              "Ask for leadership: support in securing a weekly slot with the partner team."
+            ],
+            "future": []
+          },
+          {
+            "item_id": "example-casework",
+            "category": "Screening",
+            "position": 0,
+            "title": "Example Casework, Phase 1 MVP",
+            "priority": 0,
+            "start_date": "2028-10-01",
+            "end_date": "2029-05-15",
+            "pct": 90,
+            "capacity": 15,
+            "carried": [],
+            "completed": [
+              "Two pieces of the original plan remain, the message queue and the metrics dashboard, and both are in active build."
+            ],
+            "next": [
+              "Complete both, targeting Apr 30 and no later than May 15."
+            ],
+            "future": []
+          },
+          {
+            "item_id": "example-corp-contract",
+            "category": "Leadership Topics",
+            "position": 0,
+            "title": "Example Corp Contract Renegotiation",
+            "priority": 0,
+            "start_date": null,
+            "end_date": null,
+            "pct": 85,
+            "capacity": 5,
+            "carried": [],
+            "completed": [
+              "Pricing is agreed. The existing master agreement stays in place."
+            ],
+            "next": [
+              "Meet Taylor next week to finalise the contract, expected to take about a month."
+            ],
+            "future": []
+          },
+          {
+            "item_id": "december-leave",
+            "category": "Leadership Topics",
+            "position": 1,
+            "title": "Additional December Leave for the Team",
+            "priority": 0,
+            "start_date": null,
+            "end_date": null,
+            "pct": null,
+            "capacity": null,
+            "carried": [],
+            "completed": [
+              "For information: additional leave is planned for the team members who committed exceptionally this year.",
+              "The leave extends the standard December break, so capacity drops earlier than usual.",
+              "The aim is to keep morale going, and the owner hopes the Director will support it."
+            ],
+            "next": [],
+            "future": []
+          }
+        ]
+      }
+    ]
+  },
+  "partner_briefs": {
+    "briefs": [
+      {
+        "week_ending": "2029-03-09",
+        "created_at": "2029-03-09T09:00:00Z",
+        "sent_at": "2029-03-09T16:00:00Z",
+        "org_unit": "Example Division",
+        "partner_name": "Alex",
+        "prepared_by": "Sam Sample",
+        "bottom_line": "Two March launches remain on track, and the Example Corp renegotiation is expected to save approximately $50,000 a year. The principal risk is the loss of contractor capacity, which will push delivery dates until replacement staff are confirmed.",
+        "items": [
+          {
+            "item_id": "staffing",
+            "kind": "needs",
+            "position": 0,
+            "headline": "Replacement staff needed to protect priority 2029 delivery",
+            "what": "The portfolio has already been reduced, and the team has now been asked to release its contractor staffing. Detailed replacement requests have been sent to Jordan Example for allocation.",
+            "why": "The team cannot give reliable delivery dates until replacements are onboarded, and major delays are expected across the top-priority 2029 projects.",
+            "action": "Reinforce the urgency of the staffing allocation and support resetting stakeholder timelines until replacements are confirmed.",
+            "at_this_stage": false
+          },
+          {
+            "item_id": "example-casework",
+            "kind": "fyi",
+            "position": 0,
+            "headline": "Example Casework launches March 12",
+            "what": "The screening team is ready to launch Example Casework on March 12. Final demos are under way and the launch email goes out shortly.",
+            "why": "This is the screening team's largest delivery of the year and moves the new workflow into production.",
+            "action": "Complete final demos and send launch communications before go-live.",
+            "at_this_stage": false
+          },
+          {
+            "item_id": "demo-vendor",
+            "kind": "fyi",
+            "position": 1,
+            "headline": "Demo Vendor version one launches March 22",
+            "what": "The first version of Demo Vendor is on track for March 22, with no current blockers.",
+            "why": "It is the first phase of a wider due-diligence expansion across suppliers, advisers and partners.",
+            "action": "Complete readiness activities and launch on March 22.",
+            "at_this_stage": false
+          },
+          {
+            "item_id": "example-corp-savings",
+            "kind": "fyi",
+            "position": 2,
+            "headline": "Example Corp renegotiation targets approximately $50,000 in annual savings",
+            "what": "The team is renegotiating a Example Corp contract worth about $100,000, with expected annual savings of approximately $50,000.",
+            "why": "The scope expands capability while reducing future reliance on contractors.",
+            "action": "Complete commercial negotiations and confirm final scope and savings.",
+            "at_this_stage": true
+          }
+        ]
+      }
+    ]
+  }
+}

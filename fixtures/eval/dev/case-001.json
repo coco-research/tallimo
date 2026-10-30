@@ -1,0 +1,32 @@
+{
+  "id": "case-001",
+  "family": "status",
+  "request": {
+    "items": [
+      {
+        "item_id": "demo-vendor",
+        "facts": [
+          {
+            "id": "ev-1",
+            "text": "Demo Vendor moved from In progress to Done on Mar 16."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "demo-vendor": {
+      "completed": [
+        "The MVP launched successfully on Mar 16."
+      ],
+      "next": [
+        "Run the retrospective next week.",
+        "Finish the user guide."
+      ],
+      "future": []
+    }
+  }
+}

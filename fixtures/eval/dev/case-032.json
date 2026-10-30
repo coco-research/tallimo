@@ -1,0 +1,29 @@
+{
+  "id": "case-032",
+  "family": "glossary",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-casework",
+        "facts": [
+          {
+            "id": "ev-32",
+            "text": "Example Casewerk is in active build on the message queue."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-casework": {
+      "completed": [
+        "Example Casework is in active build on the message queue."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

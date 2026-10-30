@@ -1,0 +1,29 @@
+{
+  "id": "case-026",
+  "family": "tone",
+  "request": {
+    "items": [
+      {
+        "item_id": "sample-advisor",
+        "facts": [
+          {
+            "id": "ev-26",
+            "text": "Leadership needs to unblock us ASAP or this whole thing stalls."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "sample-advisor": {
+      "completed": [],
+      "next": [
+        "Ask for leadership: support in securing a weekly slot with the partner team."
+      ],
+      "future": []
+    }
+  }
+}

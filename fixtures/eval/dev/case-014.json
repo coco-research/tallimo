@@ -1,0 +1,31 @@
+{
+  "id": "case-014",
+  "family": "number",
+  "request": {
+    "items": [
+      {
+        "item_id": "chargebacks",
+        "facts": [
+          {
+            "id": "ev-14",
+            "text": "4 chargebacks were logged and 1 is still open."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "chargebacks": {
+      "completed": [
+        "4 chargebacks were logged and 1 is still open."
+      ],
+      "next": [
+        "Close the 1 open chargeback before the next sprint."
+      ],
+      "future": []
+    }
+  }
+}

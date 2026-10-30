@@ -1,0 +1,31 @@
+{
+  "id": "case-006",
+  "family": "status",
+  "request": {
+    "items": [
+      {
+        "item_id": "audit-export",
+        "facts": [
+          {
+            "id": "ev-6",
+            "text": "CSV export moved from To do to In progress."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "audit-export": {
+      "completed": [],
+      "next": [
+        "CSV export is in progress, with column selection and a date range."
+      ],
+      "future": [
+        "Export permission scoping stays in the following sprint."
+      ]
+    }
+  }
+}

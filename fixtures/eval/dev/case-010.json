@@ -1,0 +1,29 @@
+{
+  "id": "case-010",
+  "family": "number",
+  "request": {
+    "items": [
+      {
+        "item_id": "card-refunds",
+        "facts": [
+          {
+            "id": "ev-10",
+            "text": "12 of 40 refunds cleared overnight."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "card-refunds": {
+      "completed": [
+        "12 of 40 card refunds cleared overnight."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

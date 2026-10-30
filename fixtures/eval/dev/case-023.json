@@ -1,0 +1,29 @@
+{
+  "id": "case-023",
+  "family": "tone",
+  "request": {
+    "items": [
+      {
+        "item_id": "sample-advisor",
+        "facts": [
+          {
+            "id": "ev-23",
+            "text": "This is a total game-changer, production and UAT access is sorted, folks."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "sample-advisor": {
+      "completed": [
+        "Access to both the production and UAT environments is in hand."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

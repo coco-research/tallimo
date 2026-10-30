@@ -1,0 +1,29 @@
+{
+  "id": "case-024",
+  "family": "tone",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-casework",
+        "facts": [
+          {
+            "id": "ev-24",
+            "text": "Super excited, the queue is basically done and the dashboard is cooking."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-casework": {
+      "completed": [
+        "The message queue and the metrics dashboard are in active build."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

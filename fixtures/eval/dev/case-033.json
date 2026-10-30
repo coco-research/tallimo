@@ -1,0 +1,29 @@
+{
+  "id": "case-033",
+  "family": "glossary",
+  "request": {
+    "items": [
+      {
+        "item_id": "demo-vendor",
+        "facts": [
+          {
+            "id": "ev-33",
+            "text": "Demo Vendur launched on Mar 16."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "demo-vendor": {
+      "completed": [
+        "Demo Vendor launched on Mar 16."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

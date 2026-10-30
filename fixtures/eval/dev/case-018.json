@@ -1,0 +1,33 @@
+{
+  "id": "case-018",
+  "family": "dropped-owner-text",
+  "request": {
+    "items": [
+      {
+        "item_id": "sample-advisor",
+        "facts": [
+          {
+            "id": "ev-18",
+            "text": "Access to production and UAT is in hand."
+          }
+        ],
+        "completed": [],
+        "next": [
+          "Hold Apr 15 as the internal target for UAT completion."
+        ],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "sample-advisor": {
+      "completed": [
+        "Access to both the production and UAT environments is in hand."
+      ],
+      "next": [
+        "Hold Apr 15 as the internal target for UAT completion."
+      ],
+      "future": []
+    }
+  }
+}

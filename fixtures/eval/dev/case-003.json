@@ -1,0 +1,33 @@
+{
+  "id": "case-003",
+  "family": "status",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-casework",
+        "facts": [
+          {
+            "id": "ev-3",
+            "text": "The message queue moved from In progress to Done. The metrics dashboard is still In progress."
+          }
+        ],
+        "completed": [
+          "Two pieces of the original plan remain, the message queue and the metrics dashboard, and both are in active build."
+        ],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-casework": {
+      "completed": [
+        "The message queue moved from In progress to Done. The metrics dashboard is still in active build."
+      ],
+      "next": [
+        "Complete the metrics dashboard, targeting Apr 30 and no later than May 15."
+      ],
+      "future": []
+    }
+  }
+}

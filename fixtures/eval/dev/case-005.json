@@ -1,0 +1,31 @@
+{
+  "id": "case-005",
+  "family": "status",
+  "request": {
+    "items": [
+      {
+        "item_id": "settlement-recon",
+        "facts": [
+          {
+            "id": "ev-5",
+            "text": "Settlement reconciliation moved from In progress to In review."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "settlement-recon": {
+      "completed": [
+        "Settlement reconciliation moved from In progress to In review."
+      ],
+      "next": [
+        "June will close the review before the next leadership note."
+      ],
+      "future": []
+    }
+  }
+}

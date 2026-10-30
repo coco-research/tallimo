@@ -1,0 +1,26 @@
+[package]
+name = "rollup-api"
+version.workspace = true
+edition.workspace = true
+autobins = false
+
+[lib]
+name = "rollup_api"
+path = "src/main.rs"
+
+[[bin]]
+name = "rollup-api"
+path = "src/cli.rs"
+
+[features]
+test-util = []
+
+[dependencies]
+rollup-core = { path = "../rollup-core" }
+rollup-ingest = { path = "../rollup-ingest" }
+axum = "0.8"
+tokio = { version = "1", features = ["full"] }
+tower-http = { version = "0.7", features = ["fs"] }
+rusqlite = { version = "0.40", features = ["bundled"] }
+serde_json = "1"
+subtle = "=2.6.1"

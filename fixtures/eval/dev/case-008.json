@@ -1,0 +1,29 @@
+{
+  "id": "case-008",
+  "family": "number",
+  "request": {
+    "items": [
+      {
+        "item_id": "sample-advisor",
+        "facts": [
+          {
+            "id": "ev-8",
+            "text": "Three of the eight team members are now working on Sample Advisor."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "sample-advisor": {
+      "completed": [
+        "Three of the eight team members are now working on Sample Advisor."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

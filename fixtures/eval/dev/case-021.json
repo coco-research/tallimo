@@ -1,0 +1,40 @@
+{
+  "id": "case-021",
+  "family": "dropped-owner-text",
+  "request": {
+    "items": [
+      {
+        "item_id": "demo-vendor",
+        "facts": [
+          {
+            "id": "ev-21",
+            "text": "The user guide is half written."
+          }
+        ],
+        "completed": [
+          "The MVP launched successfully on Mar 16."
+        ],
+        "next": [
+          "Run the retrospective next week."
+        ],
+        "future": [
+          "Weekly onboarding sessions continue through April."
+        ]
+      }
+    ]
+  },
+  "owner_final": {
+    "demo-vendor": {
+      "completed": [
+        "The MVP launched successfully on Mar 16."
+      ],
+      "next": [
+        "Run the retrospective next week.",
+        "Finish the user guide."
+      ],
+      "future": [
+        "Weekly onboarding sessions continue through April."
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+# Build
+/target/
+crates/target/
+
+# Local databases. Never commit.
+*.db*
+
+# Secrets. .env.example is the blank template and stays tracked.
+.env
+.env.*
+!.env.example
+
+# IDE and OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# fixtures/sample*.json is sample data and must stay tracked.
+# Do not add a rule that ignores json.

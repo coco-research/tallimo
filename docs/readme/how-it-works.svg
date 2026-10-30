@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" role="img">
+  <title>How Tallimo works</title>
+  <style>
+    .ink{stroke:#051C2C;fill:none}
+    .txt{fill:#051C2C}
+    .bg{fill:#FFFFFF}
+    .gap{stroke:#2251FF}
+    @media (prefers-color-scheme: dark){
+      .ink{stroke:#E8EEF6}
+      .txt{fill:#E8EEF6}
+      .bg{fill:#061423}
+      .gap{stroke:#8FB0FF}
+    }
+  </style>
+  <rect class="bg" x="0" y="0" width="960" height="300"/>
+  <rect class="ink bg" x="18" y="36" width="158" height="72" rx="6" stroke-width="1.5"/>
+  <rect class="ink bg" x="18" y="192" width="158" height="72" rx="6" stroke-width="1.5"/>
+  <rect class="ink bg" x="204" y="112" width="104" height="64" rx="6" stroke-width="1.5"/>
+  <rect class="ink bg" x="330" y="112" width="148" height="64" rx="6" stroke-width="1.5"/>
+  <rect class="ink bg" x="500" y="112" width="108" height="64" rx="6" stroke-width="1.5"/>
+  <rect class="ink bg" x="630" y="112" width="92" height="64" rx="6" stroke-width="1.5"/>
+  <rect class="ink bg" x="744" y="112" width="200" height="64" rx="6" stroke-width="1.5"/>
+  <polyline class="ink" points="176,72 190,72 190,228 176,228" stroke-width="1.5"/>
+  <line class="ink" x1="190" y1="144" x2="193" y2="144" stroke-width="1.5"/>
+  <polygon class="txt" points="200,144 193,140.5 193,147.5"/>
+  <line class="ink" x1="312" y1="144" x2="319" y2="144" stroke-width="1.5"/>
+  <polygon class="txt" points="326,144 319,140.5 319,147.5"/>
+  <line class="ink" x1="482" y1="144" x2="489" y2="144" stroke-width="1.5"/>
+  <polygon class="txt" points="496,144 489,140.5 489,147.5"/>
+  <line class="ink" x1="612" y1="144" x2="619" y2="144" stroke-width="1.5"/>
+  <polygon class="txt" points="626,144 619,140.5 619,147.5"/>
+  <line class="ink" x1="726" y1="144" x2="733" y2="144" stroke-width="1.5"/>
+  <polygon class="txt" points="740,144 733,140.5 733,147.5"/>
+  <path class="gap" d="M554 176 V206" fill="none" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="txt" x="97" y="66" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', sans-serif" font-size="15">Jira · plan</text>
+  <text class="txt" x="97" y="88" text-anchor="middle" font-family="ui-monospace, 'SF Mono', monospace" font-size="11">stories, epics</text>
+  <text class="txt" x="97" y="222" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', sans-serif" font-size="15">GitHub · truth</text>
+  <text class="txt" x="97" y="244" text-anchor="middle" font-family="ui-monospace, 'SF Mono', monospace" font-size="11">pull requests</text>
+  <text class="txt" x="256" y="150" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', sans-serif" font-size="15">ingest</text>
+  <text class="txt" x="404" y="150" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', sans-serif" font-size="15">SQLite store</text>
+  <text class="txt" x="554" y="150" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', sans-serif" font-size="15">matcher</text>
+  <text class="txt" x="676" y="150" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', sans-serif" font-size="15">rollup</text>
+  <text class="txt" x="844" y="150" text-anchor="middle" font-family="ui-sans-serif, -apple-system, 'Segoe UI', sans-serif" font-size="15">one-page UI</text>
+  <text class="txt" x="554" y="222" text-anchor="middle" font-family="ui-monospace, 'SF Mono', monospace" font-size="10">no story yet: review queue, link or ignore</text>
+  <text class="txt" x="944" y="198" text-anchor="end" font-family="ui-monospace, 'SF Mono', monospace" font-size="10">Today · Inbox · Leadership · Monday note</text>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "id": "case-022",
+  "family": "tone",
+  "request": {
+    "items": [
+      {
+        "item_id": "demo-vendor",
+        "facts": [
+          {
+            "id": "ev-22",
+            "text": "We're crushing it, the MVP launch was amazing!!!"
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "demo-vendor": {
+      "completed": [
+        "The MVP launched successfully on Mar 16."
+      ],
+      "next": [
+        "Run the retrospective next week."
+      ],
+      "future": []
+    }
+  }
+}

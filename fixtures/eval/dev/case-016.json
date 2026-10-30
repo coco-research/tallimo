@@ -1,0 +1,39 @@
+{
+  "id": "case-016",
+  "family": "dropped-owner-text",
+  "request": {
+    "items": [
+      {
+        "item_id": "demo-vendor",
+        "facts": [
+          {
+            "id": "ev-16",
+            "text": "Weekly onboarding sessions started on Mar 17."
+          }
+        ],
+        "completed": [
+          "The MVP launched successfully on Mar 16.",
+          "The launch moved from Mar 14 to Mar 16 to absorb late requests from the client team."
+        ],
+        "next": [
+          "Run the retrospective next week."
+        ],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "demo-vendor": {
+      "completed": [
+        "The MVP launched successfully on Mar 16.",
+        "The launch moved from Mar 14 to Mar 16 to absorb late requests from the client team.",
+        "Weekly onboarding sessions are already running."
+      ],
+      "next": [
+        "Run the retrospective next week.",
+        "Finish the user guide."
+      ],
+      "future": []
+    }
+  }
+}

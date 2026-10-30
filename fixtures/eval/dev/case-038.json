@@ -1,0 +1,45 @@
+{
+  "id": "case-038",
+  "family": "wrong-item",
+  "request": {
+    "items": [
+      {
+        "item_id": "card-refunds",
+        "facts": [
+          {
+            "id": "ev-38",
+            "text": "CSV export moved from To do to In progress."
+          }
+        ],
+        "completed": [],
+        "next": [
+          "Watch the first week of refunds with Nora."
+        ],
+        "future": []
+      },
+      {
+        "item_id": "audit-export",
+        "facts": [],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "card-refunds": {
+      "completed": [],
+      "next": [
+        "Watch the first week of refunds with Nora."
+      ],
+      "future": []
+    },
+    "audit-export": {
+      "completed": [],
+      "next": [
+        "CSV export is in progress, with column selection and a date range."
+      ],
+      "future": []
+    }
+  }
+}

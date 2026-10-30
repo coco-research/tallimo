@@ -1,0 +1,29 @@
+{
+  "id": "case-009",
+  "family": "number",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-corp-contract",
+        "facts": [
+          {
+            "id": "ev-9",
+            "text": "The Example Corp contract is about $100,000, with expected annual savings of approximately $50,000."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-corp-contract": {
+      "completed": [
+        "The team is renegotiating a Example Corp contract worth about $100,000, with expected annual savings of approximately $50,000."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "case-004",
+  "family": "status",
+  "request": {
+    "items": [
+      {
+        "item_id": "card-refunds",
+        "facts": [
+          {
+            "id": "ev-4",
+            "text": "Card refund endpoint moved from In progress to Done."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "card-refunds": {
+      "completed": [
+        "The card refund endpoint moved from In progress to Done."
+      ],
+      "next": [
+        "Watch the first week of refunds with Nora."
+      ],
+      "future": []
+    }
+  }
+}

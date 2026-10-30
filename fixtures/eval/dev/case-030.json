@@ -1,0 +1,29 @@
+{
+  "id": "case-030",
+  "family": "glossary",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-corp-contract",
+        "facts": [
+          {
+            "id": "ev-30",
+            "text": "Corvain pricing is agreed."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-corp-contract": {
+      "completed": [
+        "Example Corp pricing is agreed. The existing master agreement stays in place."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

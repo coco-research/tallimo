@@ -1,0 +1,49 @@
+{
+  "id": "case-020",
+  "family": "dropped-owner-text",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-casework",
+        "facts": [
+          {
+            "id": "ev-20",
+            "text": "The metrics dashboard is still in active build."
+          }
+        ],
+        "completed": [
+          "Two pieces of the original plan remain, the message queue and the metrics dashboard, and both are in active build."
+        ],
+        "next": [],
+        "future": []
+      },
+      {
+        "item_id": "example-corp-contract",
+        "facts": [],
+        "completed": [
+          "Pricing is agreed. The existing master agreement stays in place."
+        ],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-casework": {
+      "completed": [
+        "Two pieces of the original plan remain, the message queue and the metrics dashboard, and both are in active build."
+      ],
+      "next": [
+        "Complete both, targeting Apr 30 and no later than May 15."
+      ],
+      "future": []
+    },
+    "example-corp-contract": {
+      "completed": [
+        "Pricing is agreed. The existing master agreement stays in place."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

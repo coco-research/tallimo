@@ -1,0 +1,29 @@
+{
+  "id": "case-012",
+  "family": "number",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-casework",
+        "facts": [
+          {
+            "id": "ev-12",
+            "text": "Screening is using 15 percent of capacity on Example Casework."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-casework": {
+      "completed": [
+        "Screening is using 15 percent of capacity on Example Casework this sprint."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "case-037",
+  "family": "wrong-item",
+  "request": {
+    "items": [
+      {
+        "item_id": "demo-vendor",
+        "facts": [
+          {
+            "id": "ev-37",
+            "text": "Additional December leave is planned for the team."
+          }
+        ],
+        "completed": [
+          "The MVP launched successfully on Mar 16."
+        ],
+        "next": [],
+        "future": []
+      },
+      {
+        "item_id": "december-leave",
+        "facts": [],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "demo-vendor": {
+      "completed": [
+        "The MVP launched successfully on Mar 16."
+      ],
+      "next": [],
+      "future": []
+    },
+    "december-leave": {
+      "completed": [
+        "For information: additional leave is planned for the team members who committed exceptionally this year."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "case-029",
+  "family": "glossary",
+  "request": {
+    "items": [
+      {
+        "item_id": "card-refunds",
+        "facts": [
+          {
+            "id": "ev-29",
+            "text": "Pelix shipped the card refund endpoint."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "card-refunds": {
+      "completed": [
+        "Felix shipped the card refund endpoint."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

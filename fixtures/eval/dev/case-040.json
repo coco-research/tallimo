@@ -1,0 +1,44 @@
+{
+  "id": "case-040",
+  "family": "wrong-item",
+  "request": {
+    "items": [
+      {
+        "item_id": "misc",
+        "facts": [
+          {
+            "id": "ev-41",
+            "text": "Theo started the CSV export for the audit trail."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      },
+      {
+        "item_id": "audit-export",
+        "facts": [],
+        "completed": [
+          "Column selection is already in the design."
+        ],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "misc": {
+      "completed": [],
+      "next": [],
+      "future": []
+    },
+    "audit-export": {
+      "completed": [
+        "Column selection is already in the design.",
+        "Theo started the CSV export for the audit trail."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

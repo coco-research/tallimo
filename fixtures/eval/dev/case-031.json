@@ -1,0 +1,29 @@
+{
+  "id": "case-031",
+  "family": "glossary",
+  "request": {
+    "items": [
+      {
+        "item_id": "sample-advisor",
+        "facts": [
+          {
+            "id": "ev-31",
+            "text": "Sample Advizor now has production and UAT access."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "sample-advisor": {
+      "completed": [
+        "Sample Advisor now has access to both the production and UAT environments."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

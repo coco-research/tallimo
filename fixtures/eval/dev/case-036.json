@@ -1,0 +1,48 @@
+{
+  "id": "case-036",
+  "family": "wrong-item",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-casework",
+        "facts": [
+          {
+            "id": "ev-36",
+            "text": "Expected annual savings on the contract are approximately $50,000."
+          }
+        ],
+        "completed": [
+          "Two pieces of the original plan remain, the message queue and the metrics dashboard, and both are in active build."
+        ],
+        "next": [],
+        "future": []
+      },
+      {
+        "item_id": "example-corp-contract",
+        "facts": [],
+        "completed": [
+          "Pricing is agreed. The existing master agreement stays in place."
+        ],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-casework": {
+      "completed": [
+        "Two pieces of the original plan remain, the message queue and the metrics dashboard, and both are in active build."
+      ],
+      "next": [],
+      "future": []
+    },
+    "example-corp-contract": {
+      "completed": [
+        "Pricing is agreed. The existing master agreement stays in place.",
+        "Expected annual savings are approximately $50,000."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

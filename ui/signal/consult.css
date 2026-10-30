@@ -1,0 +1,134 @@
+/* =============================================================================
+   SIGNAL · Consult edition (work). Load after signal.css and color.css.
+   Polished business-consulting feel: white paper, a navy rail, one family of
+   blues (navy, deep, electric, cyan) and crisp 4-6px corners.
+   Colour no longer separates states; the mark's shape and word do (Signal rule 2).
+   One restrained crimson remains, only for "stale", the one thing that must never be missed.
+   ============================================================================= */
+
+:root {
+  --paper: #ffffff;
+  --surface: #f2f5f9;
+  --raised: #ffffff;
+  --line: #d9dfe7;
+  --rule: #051c2c;
+  --ink: #051c2c;
+  --ink-2: #3a4a5c;
+  --ink-3: #5c6b7c;
+  /* the blue family */
+  --navy: #051c2c;
+  --deep: #0b3a7a;
+  --electric: #2251ff;
+  --cyan: #00a9f4;
+  --cyan-text: #00739e;
+  --sky: #e8efff;
+  --blue: var(--electric);
+  --blue-text: var(--electric);
+  --blue-ink: #ffffff;
+  --blue-soft: var(--sky);
+  /* meanings mapped into blue; stale keeps one quiet crimson */
+  --green: var(--deep);      --green-fill: var(--navy);
+  --amber: var(--cyan-text); --amber-fill: var(--cyan); --amber-ink: var(--navy);
+  --red: #a4262c;            --red-fill: #a4262c;
+  --gap-wash: #eef6fc;
+  --stale-wash: #f6f3f4;
+  /* navy rail */
+  --rail-bg: #051c2c;
+  --rail-ink: #ffffff;
+  --rail-ink-2: #c3cfdc;
+  --rail-ink-3: #8a9bb0;
+  --rail-line: #13304a;
+  --rail-hover: #0c2a42;
+  --r-ctl: 4px;
+  --r-tile: 6px;
+  --r-panel: 6px;
+  --r-pill: 2px; /* Consult keeps the token name; pills are near-square here by design */
+  --float-shadow: 0 10px 28px rgba(5, 28, 44, 0.16);
+  --focus: 0 0 0 2px var(--bg), 0 0 0 4px var(--electric);
+}
+[data-theme="dark"] {
+  --paper: #061423;
+  --surface: #0b1e33;
+  --raised: #0e2338;
+  --line: #1b2e45;
+  --rule: #e8eef6;
+  --ink: #e8eef6;
+  --ink-2: #b7c4d4;
+  --ink-3: #8a9bb0;
+  --navy: #0b3a7a;
+  --deep: #1a4fc0;
+  --electric: #2251ff;
+  --cyan: #00a9f4;
+  --cyan-text: #5cc8ff;
+  --sky: rgba(143, 176, 255, 0.12);
+  --blue-text: #8fb0ff;
+  --green: #8fb0ff;          --green-fill: var(--deep);
+  --amber: var(--cyan-text); --amber-ink: #051c2c;
+  --red: #ff8a8f;            --red-fill: #a4262c;
+  --gap-wash: rgba(0, 169, 244, 0.08);
+  --stale-wash: rgba(255, 138, 143, 0.07);
+  --rail-bg: #040f1c;
+  --rail-ink: #e8eef6;
+  --rail-ink-2: #b7c4d4;
+  --rail-ink-3: #8a9bb0;
+  --rail-line: #13263b;
+  --rail-hover: #0b1e33;
+  --float-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+}
+
+/* rail: navy column, electric active block */
+.nav-item { margin: 0 10px; border-radius: var(--r-ctl); }
+a.nav-item[aria-current="page"] { background: var(--electric); color: var(--blue-ink); }
+.badge { background: rgba(255, 255, 255, 0.14); color: var(--rail-ink); border-radius: var(--r-ctl); }
+a.nav-item[aria-current="page"] .badge { background: var(--blue-ink); color: var(--electric); }
+
+/* type stays Signal; hierarchy leans on navy and thin rules */
+.page-head { border-bottom-width: 2px; }
+.section-head { border-bottom-width: 1px; }
+.eyebrow { color: var(--electric); }
+[data-theme="dark"] .eyebrow { color: var(--blue-text); }
+.lede { font-size: 17px; line-height: 26px; font-weight: 500; letter-spacing: -0.005em; max-width: 72ch; }
+
+/* controls: one filled electric action, the rest outlined navy */
+.btn, .icon-btn { border-width: 1px; border-color: var(--line); }
+.btn { font-weight: 600; }
+.btn:hover, .icon-btn:hover { background: var(--surface); color: var(--ink); border-color: var(--ink-3); }
+.who .btn, .room-top .btn, .btn-accent { background: var(--electric); border-color: var(--electric); color: var(--blue-ink); }
+.who .btn:hover, .room-top .btn:hover, .btn-accent:hover { background: var(--navy); border-color: var(--navy); color: var(--blue-ink); }
+[data-theme="dark"] .who .btn:hover, [data-theme="dark"] .room-top .btn:hover, [data-theme="dark"] .btn-accent:hover { background: var(--deep); border-color: var(--deep); }
+.status { border-radius: var(--r-ctl); background: var(--sky); color: var(--deep); }
+[data-theme="dark"] .status { color: var(--blue-text); }
+
+/* key numbers: an exhibit ramp, navy to cyan; the state is in the mark */
+.kn, .kn[class*="kn-"] { background: var(--surface); color: var(--ink); }
+.kns .kn:nth-child(1) { background: var(--navy); color: var(--blue-ink); }
+.kns .kn:nth-child(2) { background: var(--deep); color: var(--blue-ink); }
+.kns .kn:nth-child(3) { background: var(--electric); color: var(--blue-ink); }
+.kns .kn:nth-child(4) { background: var(--cyan); color: var(--amber-ink); }
+/* tone colours would fail contrast on the ramp, so they reset here: a gap or stale number MUST carry its .mark (shape + word) */
+.kns .kn :is(.kn-num, .kn-label, .kn-denom, .tone-gap, .tone-stale, .mark) { color: inherit; }
+.kns .kn .kn-denom { opacity: 0.86; }
+.kns .kn .mark { font-weight: 650; }
+
+/* rows: calm washes, a thin rule in the state's colour */
+.row-gap { background: var(--gap-wash); box-shadow: inset 3px 0 0 var(--cyan); }
+.row-stale { background: var(--stale-wash); box-shadow: inset 3px 0 0 var(--red); }
+.conn-ok { border-top-color: var(--deep); border-left-color: var(--deep); }
+.conn-ok::after { background: var(--deep); }
+[data-theme="dark"] .conn-ok { border-top-color: var(--blue-text); border-left-color: var(--blue-text); }
+[data-theme="dark"] .conn-ok::after { background: var(--blue-text); }
+.conn-gap { border-top-color: var(--cyan); border-left-color: var(--cyan); }
+
+/* bars: navy done, electric in flight, pale hatch planned */
+.bar { height: 8px; gap: 2px; border-radius: var(--r-pill); }
+.seg { border-radius: 0; }
+.seg-done { background: var(--navy); }
+[data-theme="dark"] .seg-done { background: var(--ink-2); }
+.seg-flight { background: var(--electric); }
+.seg-plan { background: repeating-linear-gradient(135deg, var(--line) 0 3px, transparent 3px 6px); }
+.sw { border-radius: 1px; }
+.person:hover, .person[aria-current="true"] { background: var(--sky); }
+.person[aria-current="true"] { box-shadow: inset 3px 0 0 var(--electric); }
+.person[aria-current="true"]:focus-visible { box-shadow: inset 0 0 0 2px var(--electric), inset 3px 0 0 var(--electric); }
+.toast-undo { color: var(--electric); }
+[data-theme="dark"] .toast-undo { color: var(--blue-text); }

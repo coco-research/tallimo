@@ -1,0 +1,29 @@
+{
+  "id": "case-013",
+  "family": "number",
+  "request": {
+    "items": [
+      {
+        "item_id": "demo-vendor",
+        "facts": [
+          {
+            "id": "ev-13",
+            "text": "The launch moved from Mar 14 to Mar 16."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "demo-vendor": {
+      "completed": [
+        "The launch moved from Mar 14 to Mar 16 to absorb late requests from the client team."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "case-027",
+  "family": "tone",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-corp-contract",
+        "facts": [
+          {
+            "id": "ev-27",
+            "text": "Contract is a slam dunk, pricing done, master agreement stays."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-corp-contract": {
+      "completed": [
+        "Pricing is agreed. The existing master agreement stays in place."
+      ],
+      "next": [],
+      "future": []
+    }
+  }
+}

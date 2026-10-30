@@ -1,0 +1,12 @@
+[package]
+name = "tallimo-mcp"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+rollup-core = { path = "../rollup-core" }
+serde_json = "1"
+reqwest.workspace = true
+
+[dev-dependencies]
+rollup-api = { path = "../rollup-api", features = ["test-util"] }

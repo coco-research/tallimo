@@ -1,0 +1,31 @@
+{
+  "id": "case-007",
+  "family": "status",
+  "request": {
+    "items": [
+      {
+        "item_id": "release-schedule",
+        "facts": [
+          {
+            "id": "ev-7",
+            "text": "Release schedule moved from To do to In progress."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "release-schedule": {
+      "completed": [
+        "The release schedule is in progress."
+      ],
+      "next": [],
+      "future": [
+        "The cut note goes out with the next release."
+      ]
+    }
+  }
+}

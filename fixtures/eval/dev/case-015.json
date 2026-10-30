@@ -1,0 +1,33 @@
+{
+  "id": "case-015",
+  "family": "dropped-owner-text",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-corp-contract",
+        "facts": [
+          {
+            "id": "ev-15",
+            "text": "Taylor can meet next week. The paperwork should take about a month."
+          }
+        ],
+        "completed": [
+          "Pricing is agreed. The existing master agreement stays in place."
+        ],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-corp-contract": {
+      "completed": [
+        "Pricing is agreed. The existing master agreement stays in place."
+      ],
+      "next": [
+        "Meet Taylor next week to finalise the contract, expected to take about a month."
+      ],
+      "future": []
+    }
+  }
+}

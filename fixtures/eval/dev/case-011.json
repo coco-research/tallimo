@@ -1,0 +1,31 @@
+{
+  "id": "case-011",
+  "family": "number",
+  "request": {
+    "items": [
+      {
+        "item_id": "example-casework",
+        "facts": [
+          {
+            "id": "ev-11",
+            "text": "Example Casework is 90 percent complete. The remaining work targets Apr 30 and no later than May 15."
+          }
+        ],
+        "completed": [],
+        "next": [],
+        "future": []
+      }
+    ]
+  },
+  "owner_final": {
+    "example-casework": {
+      "completed": [
+        "Example Casework is 90 percent complete."
+      ],
+      "next": [
+        "Complete the remaining work, targeting Apr 30 and no later than May 15."
+      ],
+      "future": []
+    }
+  }
+}

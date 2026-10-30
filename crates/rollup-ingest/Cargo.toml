@@ -1,0 +1,11 @@
+[package]
+name = "rollup-ingest"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+rollup-core = { path = "../rollup-core" }
+rusqlite = { version = "0.40", features = ["bundled"] }
+serde_json = "1"
+reqwest.workspace = true
+tokio = { version = "1", features = ["full"] }
