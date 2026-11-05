@@ -142,13 +142,17 @@ Finished. No longer developed. There are no further releases, no security fixes,
 
 ## Contributing
 
-Not accepting contributions. Fork it freely under the MIT licence. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Not accepting contributions. Fork it freely under the Apache-2.0 licence. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Use sample and fixture data only. Never commit real client data, exports, tokens, or a `.env`.
 
 ## Licence
 
-MIT. See [LICENSE](LICENSE).
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+Apache-2.0. See [LICENSE](LICENSE).
+
+Relicensed from MIT to Apache-2.0 from this commit. Earlier releases remain under MIT. The prior MIT text is in [LICENSE-MIT-PRIOR](LICENSE-MIT-PRIOR).
 
 ## Credits
 

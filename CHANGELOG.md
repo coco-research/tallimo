@@ -4,7 +4,8 @@ All notable changes to this project are documented in this file. The format is b
 
 ## [Unreleased]
 
-- Finished. No longer developed. Released under the MIT licence. Later versions were not recorded in this file.
+- Relicensed from MIT to Apache-2.0 from this commit. Earlier releases remain under MIT.
+- Finished. No longer developed. Later versions were not recorded in this file.
 
 ## [0.2.1] - 2026-10-10
 

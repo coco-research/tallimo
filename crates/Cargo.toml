@@ -5,6 +5,7 @@ members = ["rollup-core", "rollup-ingest", "rollup-api", "tallimo-mcp"]
 [workspace.package]
 version = "0.16.1"
 edition = "2021"
+license = "Apache-2.0"
 
 [workspace.dependencies]
 reqwest = { version = "0.13", features = ["blocking", "json", "query"] }
